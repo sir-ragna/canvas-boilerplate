@@ -5,6 +5,7 @@ const c = canvas.getContext('2d')
 
 canvas.width = innerWidth
 canvas.height = innerHeight
+canvas.style = "position:fixed; top:0; left:0; width:100%; height:100%;"
 
 const mouse = {
   x: innerWidth / 2,
